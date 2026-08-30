@@ -30,7 +30,7 @@ import yt_dlp
 # تنظیمات
 # ---------------------------------------------------------------------------
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8438757317:AAGnhpSuv8ud-TO-WxbA3EcuVg8HCO86e9Q")
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
 DOWNLOAD_DIR = "downloads"
 MAX_TELEGRAM_SIZE_MB = 50  # محدودیت پیش‌فرض ارسال فایل توسط ربات‌ها
 
